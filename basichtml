@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Welcome to STIJ3074</title>
+   </head>
+   <body>
+   <div style ="background:skyblue"
+      <h1>Header tag h1</h1>
+      <p> Welcome to paragraph 1. This is an example of paragraph 1 content.</p>
+      <h2>Header tag h2</h2>
+   </div>
+      <a href="http://google.com" title = "MY PAGE"> Link to my page</a><br><br>
+      <img src="imej.JPG" width="30%"/><br><br>
+      <p> Welcome to my web page. <small>This is just</small> simple <em>demonstration</em> how <strong>web page works</strong>. <br>Lets try a simpe text formatting</p><br>
+	  <ol type"1">
+	  <li>Apple</li>
+	  <li>Orange</li>
+	  <li>Durian</li>
+	  <li>Manggo</li>
+	  <li>Lychee</li>
+	  </ol><br>
+	  <table cellspacing="1" cellpadding="5" border="1">
+	  <tr><td>Name</td><td>Matric</td><td>Phone No</td></tr>
+	  <tr><td>Nazreen</td><td>261805</td><td>0103614857</td></tr>
+	  <tr><td>abu</td><td>261537</td><td>012846817</td></tr>
+	  
+	  </table>
+   </body>
+   
+</html>
