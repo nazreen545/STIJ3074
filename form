@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>User form</title>
-</head>
-<body>
-
-<h1>User form</h1>
-<form>
-<label> Username</label>
-<input type="text" id="username" name="username" value=""><br>
-<label> Fullname</label>
-<input type="text" id="fullname" name="username"><br>
-<label>Phone Number</label>
-<input type="text" id="number" name="number"><br>
-<input type="submit">
-
-</form>
-
-</body>
+	<head>
+		<title>User Form</title>
+	</head>
+	<body>
+		
+		<h1>User Form</h1>
+		<form action="action_page.php" method ="post">
+			<label> Username/email</label>
+			<input type="text" id="idusername" name="username"><br>
+			<label> Full Name</label>
+			<input type="text" id="idfullname" name="fullname"><br>
+			<label>Phone Number</label>
+			<input type="text" id="idphonenum" name="phonenum"><br>
+			<label for="cars">Choose your car:</label>
+			<select name="cars" id="cars">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select><br><br>
+			<textarea name="message" rows="10" cols="30">
+				The cat was playing in the garden.
+			</textarea><br><br>
+			<input type= "submit" value= "submit">
+		</form>
+		
+		
+	</body>
 </html>
