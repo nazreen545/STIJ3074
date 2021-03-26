@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Form</title>
+	</head>
+	<body>
+		<table style="width:30%">
+		<h1>User Form</h1>
+		<form action="action_page.php" method ="post" autocomplete="on">
+			<tr><td><label> Username/email</label></td>
+			<td><input type="text" id="idusername" name="username"></td></tr>
+			<tr><td><label> Full Name</label></td>
+			<td><input type="text" id="idfullname" name="fullname"></td></tr>
+			<tr><td><label>Phone Number</label></td>
+			<td><input type="text" id="idphonenum" name="phonenum"></td><tr>
+			<tr><td><label>Password</label></td>
+			<td><input type="password" id="idpassword" name="password"></td></tr>
+		    <tr><td><label>Date</label></td>
+			<td><input type="date" id="iddate" name="reqdate"></td></tr>
+		</form>
+	</body>
+</html>
