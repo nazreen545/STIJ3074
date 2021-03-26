@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User form</title>
+</head>
+<body>
+
+<h1>User form</h1>
+<form>
+<label> Username</label>
+<input type="text" id="username" name="username" value=""><br>
+<label> Fullname</label>
+<input type="text" id="fullname" name="username"><br>
+<label>Phone Number</label>
+<input type="text" id="number" name="number"><br>
+<input type="submit">
+
+</form>
+
+</body>
+</html>
