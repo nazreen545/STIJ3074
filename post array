@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Form</title>
+	</head>
+	<body>
+		
+		<h1>User Form</h1>
+		<form action="action_page.php" method ="post">
+			<label> Username/email</label>
+			<input type="text" id="idusername" name="username"><br>
+			<label> Full Name</label>
+			<input type="text" id="idfullname" name="fullname"><br>
+			<label>Phone Number</label>
+			<input type="text" id="idphonenum" name="phonenum"><br>
+			<input type= "submit" value= "submit">
+		</form>
+		
+		
+	</body>
+</html>
+
+<?php
+echo "<h2>Welcome " . $_POST['username'] . " your full name is " . $_POST['fullname']. " Your phone number is " . $_POST['phonenum'] . "</h2>";
+?> // to get the data, post array is better dan get arry coz it safe.
