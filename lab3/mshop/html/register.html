@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../js/validate.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1> "Bouquet & Giftbox Shop"</h1>
+		<p>Myshop 2021.</p>
+	</div>
+	<div class="topnavbar">
+        <a href="../index.html">HOME</a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="../html/login.html" class="right">Login</a>
+    </div>
+
+	<div class="main">
+		<center><img src="../images/login.jpg"></center>
+		<div class="container">
+			<form name="registerForm" action="../php/register.php" onsubmit="return validateRegForm()" method="post">
+				<div class="row">
+					<div class="col-25">
+						<label for="fname"><b>Name</b></label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="idname" name="name" placeholder="Your name..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lname"><b>Email</b></label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="idemail" name="email" placeholder="Your last name..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lphone"><b>Phone</b></label>
+					</div>
+					<div class="col-75">
+						<input type="tel" id="idphone" name="phone" placeholder="Your phone number..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lpassword"><b>Password</b></label>
+					</div>
+					<div class="col-75">
+						<input type="password" id="idpass" name="passworda" placeholder="Your password..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lpassword"><b>Password</b></label>
+					</div>
+					<div class="col-75">
+						<input type="password" id="idpassb" name="passwordb" placeholder="Re-enter password">
+					</div>
+				</div>
+				<div class="row">
+					<div><input type="submit" value="Submit"></div>
+				</div>
+
+			</form>
+
+		</div>
+
+
+	</div>
+
+
+	<div class="bottomnavbar">
+		<a href="../index.html"></a>
+		<a href="#news"></a>
+		<a href="#contact"></a>
+	</div>
+
+</body>
+
+</html>

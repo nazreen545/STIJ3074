@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../js/validate.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1> "Bouquet & Giftbox Shop"</h1>
+		<p>Myshop 2021.</p>
+	</div>
+	<div class="topnavbar">
+        <a href="../index.html">HOME</a>
+    
+        <a href="../html/register.html" class="right">Register</a>
+    </div>
+	<div class="main">
+		<center>
+			<img src="../images/login.jpg">
+		</center>
+		<div class="container">
+			<form name="loginForm" action="../php/login.php" onsubmit="return validateLoginForm()" method="post">
+				<div class="row">
+					<div class="col-25">
+						<label for="femail"><b>Email</b></label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="idemail" name="email" placeholder="Your email..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lname"><b>Password</b></label>
+					</div>
+					<div class="col-75">
+						<input type="password" id="idpass" name="password" placeholder="Your password..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-75">
+						<div>
+							<label>
+								<input type="checkbox" checked="checked" name="remember"><i> Remember me</i>
+							</label>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+		
+
+	</div>
+
+	<div class="bottomnavbar">
+		<a href="#contact"></a>
+	</div>
+
+</body>
+
+</html>
