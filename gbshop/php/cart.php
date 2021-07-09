@@ -68,8 +68,8 @@ if (!isset($_COOKIE['email'])) {
                 'name' => $name,
                 'amount' => $amount * 100, // RM20
                 'description' => 'Payment for order',
-                'callback_url' => "https://nazreen.xifuhalim.com/index.php",
-                'redirect_url' => "https://nazreen.xifuhalim.com/php/paymentupdate.php?userid=$email&mobile=$mobile&amount=$amount"
+                'callback_url' => "http://nazrn.epizy.com/gbshop/index.php",
+                'redirect_url' => "http://nazrn.epizy.com/gbshop/php/paymentupdate.php?userid=$email&mobile=$mobile&amount=$amount"
             );
             $process = curl_init($host);
             curl_setopt($process, CURLOPT_HEADER, 0);
